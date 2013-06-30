@@ -13,3 +13,7 @@ spoiler({max: 10, part: 4});
 ```
 
 Have fun! Play with it!
+
+## Demo
+
+Take a look at [this](http://lestatseven.github.io/Blurred-Spoiler/) to see it in action!

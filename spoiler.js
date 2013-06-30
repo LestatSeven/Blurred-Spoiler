@@ -77,8 +77,6 @@
 
     for(var i = len; i--, el = els[i];) {
       appBlur(el, curBlur);
-      var s = el.style;
-      s.cursor = 'pointer';
       el.onmouseover = function () {
         perfBlur(this, opt.part, -1);
       }
