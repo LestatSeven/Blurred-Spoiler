@@ -1,0 +1,72 @@
+html { font-size: 62.5%; }
+html, body { height: 100%; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 150%;
+  line-height: 1.4;
+  cor: #2f2219;
+  background: #FFF;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+#wrap {
+  width: 75em;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.gr {
+  display: inline-block;
+  width: 100%;
+}
+
+.gr:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.r {
+  border-bottom: 1px solid rgba(0,0,0,0.5);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 2em 20px 0;
+}
+
+.r:last-child {
+  border-bottom: 0px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 2em 20px 0;
+}
+
+.r .c-1 {
+  width: 49%;
+  float: left;
+  padding: 0 0 1em;
+}
+
+.r .c-2 {
+  width: 49%;
+  float: right;
+  padding: 0 0 1em;
+}
+
+pre {
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  padding: 8px 10px;
+  border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  -webkit-border-radius: 0.4em;
+  overflow-x: auto;
+}
+
+pre code {
+  font-size: 12px;
+  line-height: 1.6;
+}
