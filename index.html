@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<title>Blurred spoiler</title>
+  	<link rel="stylesheet" href="./css.css" type="text/css" media="screen">
+</head>
+<body>
+  <div id="wrap">
+    <div class="gr r">
+      <div class="c-1">
+        <h3>Works with images:</h3>
+        <p><img class="spoiler" src="./feynman.jpg" title=""></p>
+      </div>
+      <div class="c-2">
+        <h3>Works with text:</h3>
+        <p>Lorem ipsum dolor <span class="spoiler">sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore </span>magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="spoiler">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        </p>
+      </div>
+    </div>
+          <div class="gr r">
+            <div class="c-1">
+              <p>Include spoiler.js.<br>Then, add this before &lt;/body&gt;:</p>
+            </div>
+            <div class="c-2">
+              <pre><code>spoiler();</code></pre>
+            </div>
+          </div>
+          <div class="gr r">
+            <div class="c-1">
+              <p>To control the maximum and partial blurs, you can pass arguments:</p>
+            </div>
+            <div class="c-2">
+              <pre><code> spoiler({max: 10, part: 4});</code></pre>
+            </div>
+          </div>
+
+  </div>
+  <a href="https://github.com/lestatseven/blurred-spoiler"><img style="position: absolute; top: 0; right: 0; border: 0;" src="./forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+
+  <script src="./spoiler.js"></script>
+  <script type="text/javascript">
+    spoiler();
+  </script>
+</body></html>
